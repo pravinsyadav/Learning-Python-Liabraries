@@ -7,6 +7,6 @@ print(df.shape)            # it gives no of rows and columns
 
 print(df.columns)           # it will print names of columns 
 
-print(df.info)            # it will show datatypes
+print(df.info)            # it will show datatypes or structure of data 
 
 print(df.describe)         # it will show statistics
