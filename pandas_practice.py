@@ -4,3 +4,9 @@ print(df.head())                              #df means your data and df.head() 
 print(df.shape)            # it gives no of rows and columns 
 #here we are using print becuase file is .py if our file is .ipynb then here we are using notebook 
 # there we dont need to write print we just write df.shape like this
+
+print(df.columns)           # it will print names of columns 
+
+print(df.info)            # it will show datatypes
+
+print(df.describe)         # it will show statistics
