@@ -1,6 +1,9 @@
 import pandas as pd
 df = pd.read_csv("tips.csv")
 
+#IMP->
+    # always use (&) (|) instead of 'and' 'or'
+    
 
 #print rows where total bill is less than 25 (total_bill < 25)
 print(df[df["total_bill"]<25]) 
