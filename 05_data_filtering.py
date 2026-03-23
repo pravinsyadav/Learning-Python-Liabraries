@@ -23,3 +23,13 @@ print(df[df["tip"] > 5])
 
 #show rows where total bill > 20 and day = sunday 
 print(df[(df["total_bill"] > 20) & (df["day"]=="Sun")])
+
+
+#it will print first 3 records 
+print(df.iloc[0:3])
+
+
+#it will calculate avg of total_bill
+print(df["total_bill"].mean())
+
+
