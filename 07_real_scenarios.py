@@ -44,3 +44,19 @@ print(df.columns)
 # delete column
 df.drop("tip_percentage", axis=1, inplace=True)
 print(df.columns)
+
+
+# Remove Duplicate Records Based on Column
+df.drop_duplicates(subset="bill")
+
+
+# Find Employees with Second Highest bill
+df["bill"].sort_values(ascending=False).iloc[1]
+
+
+# Replace Missing bill with Average bill
+df["bill"].fillna(df["bill"].mean())
+
+
+# Sort Data by Multiple Columns
+df.sort_values(["bill","gender"],ascending=[True,True])
