@@ -41,3 +41,6 @@ df.rename(columns={"tip":"total_tip"},inplace=True)
 print(df.columns)
 
 
+# delete column
+df.drop("tip_percentage", axis=1, inplace=True)
+print(df.columns)
