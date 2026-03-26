@@ -11,8 +11,8 @@ print(df.info)            # it will show datatypes or structure of data
 
 print(df.describe)         # it will show statistics
 
-print(df["tip"])       #it will print a mentioned column values
-print(df[["total_bill","tip"]])         #it will print values of two columns 
+print(df["tip"])       # it will print a mentioned column values
+print(df[["total_bill","tip"]])         # it will print values of two columns 
 
 print(df.iloc[0])         # it will print first row index based 
-print(df.loc[0])         #label based
+print(df.loc[0])         # label based

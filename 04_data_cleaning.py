@@ -3,7 +3,7 @@ df = pd.read_csv("tips.csv")
 
 
 #check missing values
-print(df.isnull().sum())        #it will show how many null values are there in each column
+print(df.isnull().sum())        # it will show how many null values are there in each column
 
 
 #handle missing values
@@ -13,5 +13,5 @@ print(df.dropna())
 
 #2 ->
     #fill null values
-print(df.fillna(0))               #it is used based on situation
+print(df.fillna(0))               # it is used based on situation
 
